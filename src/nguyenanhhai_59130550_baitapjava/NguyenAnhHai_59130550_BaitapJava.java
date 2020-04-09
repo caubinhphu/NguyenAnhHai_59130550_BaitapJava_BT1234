@@ -6,6 +6,7 @@
 package nguyenanhhai_59130550_baitapjava;
 
 import baitap1.Main1;
+import baitap2.Main2;
 
 /**
  *
@@ -17,7 +18,10 @@ public class NguyenAnhHai_59130550_BaitapJava {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
+        System.out.println("Bài tập 1:");
         Main1.main(args);
+        System.out.println("Bài tập 2:");
+        Main2.main(args);
     }
     
 }
