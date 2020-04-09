@@ -5,6 +5,8 @@
  */
 package nguyenanhhai_59130550_baitapjava;
 
+import baitap1.Main1;
+
 /**
  *
  * @author Hai Tran Do
@@ -15,7 +17,7 @@ public class NguyenAnhHai_59130550_BaitapJava {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        Main1.main(args);
     }
     
 }
