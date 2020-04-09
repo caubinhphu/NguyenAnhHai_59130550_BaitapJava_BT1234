@@ -7,6 +7,7 @@ package nguyenanhhai_59130550_baitapjava;
 
 import baitap1.Main1;
 import baitap2.Main2;
+import baitap3.Main3;
 
 /**
  *
@@ -20,8 +21,12 @@ public class NguyenAnhHai_59130550_BaitapJava {
     public static void main(String[] args) {
         System.out.println("Bài tập 1:");
         Main1.main(args);
-        System.out.println("Bài tập 2:");
+        
+        System.out.println("\nBài tập 2:");
         Main2.main(args);
+        
+        System.out.println("\nBài tập 3:");
+        Main3.main(args);
     }
     
 }
