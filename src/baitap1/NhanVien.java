@@ -17,7 +17,7 @@ public class NhanVien {
   private double tienLuong;
   private int tongGioLam;
 
-  // constructor
+  // constructor no params
   public NhanVien() {
     this.ten = "";
     this.tuoi = 0;
@@ -27,36 +27,16 @@ public class NhanVien {
   }
 
   // getter, setter
-  public void setTen(String ten) {
-    this.ten = ten;
-  }
-  public String getTen() {
-    return this.ten;
-  }
-  public void setTuoi(int tuoi) {
-    this.tuoi = tuoi;
-  }
-  public int gettuoi() {
-    return this.tuoi;
-  }
-  public void setDiaChi(String diaChi) {
-    this.diaChi = diaChi;
-  }
-  public String getDiaChi() {
-    return this.diaChi;
-  }
-  public void setTienLuong(double tienLuong) {
-    this.tienLuong = tienLuong;
-  }
-  public double getTienLuong() {
-    return this.tienLuong;
-  }
-  public void setTongGioLam(int tongGioLam) {
-    this.tongGioLam = tongGioLam;
-  }
-  public int getTongGioLam() {
-    return this.tongGioLam;
-  }
+  public void setTen(String ten) { this.ten = ten; }
+  public String getTen() { return this.ten; }
+  public void setTuoi(int tuoi) { this.tuoi = tuoi; }
+  public int gettuoi() { return this.tuoi; }
+  public void setDiaChi(String diaChi) { this.diaChi = diaChi; }
+  public String getDiaChi() { return this.diaChi; }
+  public void setTienLuong(double tienLuong) { this.tienLuong = tienLuong; }
+  public double getTienLuong() { return this.tienLuong; }
+  public void setTongGioLam(int tongGioLam) { this.tongGioLam = tongGioLam; }
+  public int getTongGioLam() { return this.tongGioLam; }
 
   // methods
   // get thong tin nhan vien
@@ -70,7 +50,8 @@ public class NhanVien {
   public double tinhThuong() {
     if (this.tongGioLam >= 200) {
       return this.tienLuong * 0.2;
-    } else if (this.tongGioLam >= 100) {
+    }
+    if (this.tongGioLam >= 100) {
       return this.tienLuong * 0.1;
     }
     return 0;

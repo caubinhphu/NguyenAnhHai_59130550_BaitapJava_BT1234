@@ -24,6 +24,7 @@ public class Main2 {
     nv1.setTienLuong(10000000);
     nv1.setTongGioLam(100);
 
+    // create nhan vien
     NhanVien nv2 = new NhanVien();
     nv2.setTen("Nguyen Van B");
     nv2.setTuoi(21);
@@ -31,6 +32,7 @@ public class Main2 {
     nv2.setTienLuong(20000000);
     nv2.setTongGioLam(200);
 
+    // create nhan vien
     NhanVien nv3 = new NhanVien();
     nv3.setTen("Nguyen Van C");
     nv3.setTuoi(22);
@@ -38,6 +40,7 @@ public class Main2 {
     nv3.setTienLuong(18000000);
     nv3.setTongGioLam(200);
 
+    // create nhan vien
     NhanVien nv4 = new NhanVien();
     nv4.setTen("Nguyen Van D");
     nv4.setTuoi(23);
@@ -45,6 +48,7 @@ public class Main2 {
     nv4.setTienLuong(25000000);
     nv4.setTongGioLam(300);
 
+    // create nhan vien
     NhanVien nv5 = new NhanVien();
     nv5.setTen("Nguyen Van E");
     nv5.setTuoi(24);

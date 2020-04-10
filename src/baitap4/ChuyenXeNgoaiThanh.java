@@ -10,7 +10,7 @@ package baitap4;
  * @author Hai Tran Do
  */
 public class ChuyenXeNgoaiThanh extends ChuyenXe {
-        // attributes
+    // attributes
     public String noiDen;
     public int soNgay;
   

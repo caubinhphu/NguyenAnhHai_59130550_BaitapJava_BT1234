@@ -25,6 +25,7 @@ public abstract class ChuyenXe {
     }
 
     // methods
+    // in thong tin xe
     public void inThongTinChuyenXe() {
       System.out.println("ma chuyen xe: " + this.maChuyen);
       System.out.println("ten tai xe: " + this.taiXe);

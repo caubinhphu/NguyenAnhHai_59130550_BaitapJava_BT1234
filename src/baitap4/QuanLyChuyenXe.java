@@ -28,9 +28,7 @@ public class QuanLyChuyenXe {
 
     // Xuat thong tin chuyen xe
     public void inThongTin() {
-      for(ChuyenXe cx : dsChuyenXe) {
-        cx.inThongTinChuyenXe();
-      }
+      dsChuyenXe.forEach(cx -> cx.inThongTinChuyenXe());
     }
 
     // tinh tong doanh thu xe noi thanh
